@@ -1,0 +1,25 @@
+﻿.node #title {
+    background-color: rgba(29, 115, 57, 0.91);
+}
+.node #contents {
+    background-color: rgba(63, 63, 63, 205);
+}
+.node #settings {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-left: 16px;
+    margin-right: 4px;
+    padding-right: 4px;
+}
+.node #settings Label {
+    min-width: 80px;
+}
+.node #settings TextField {
+    margin: 0;
+}
+.node #settings TextField.unity-base-field--no-label {
+    margin-top: 5px;
+}
+.node.collapsed #settings {
+    display:none;
+}
